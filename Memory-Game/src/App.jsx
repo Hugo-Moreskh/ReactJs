@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 // App.js
 import React, { useState, useEffect } from "react";
 import "./App.css";
@@ -7,18 +8,18 @@ import Button from "./components/Button";
 
 const App = () => {
   const [cards, setCards] = useState([
-    { id: 1, img: "ReactJs/public/brook.jpg" }, // Assurez-vous de remplacer 'path_to_image' par le chemin de vos images
-    { id: 2, img: "ReactJs/public/brook.jpg" },
-    { id: 3, img: "<ReactJs/public/chopper.jpg" },
-    { id: 4, img: "ReactJs/public/chopper.jpg" },
-    { id: 5, img: "ReactJs/public/luffy.jpg" },
-    { id: 6, img: "ReactJs/public/luffy.jpg" },
-    { id: 7, img: "ReactJs/public/nami.jpg" },
-    { id: 8, img: "ReactJs/public/nami.jpg" },
-    { id: 9, img: "ReactJs/public/sanji.jpg" },
-    { id: 10, img: "ReactJs/public/sanji.jpg" },
-    { id: 11, img: "ReactJs/public/zoro.jpg" },
-    { id: 12, img: "ReactJs/public/zoro.jpg" },
+    { id: 1, img: "/brook.jpg" },
+    { id: 2, img: "/brook.jpg" },
+    { id: 3, img: "/chopper.jpg" },
+    { id: 4, img: "/chopper.jpg" },
+    { id: 5, img: "/luffy.jpg" },
+    { id: 6, img: "/luffy.jpg" },
+    { id: 7, img: "/nami.jpg" },
+    { id: 8, img: "/nami.jpg" },
+    { id: 9, img: "/sanji.jpg" },
+    { id: 10, img: "/sanji.jpg" },
+    { id: 11, img: "/zoro.jpg" },
+    { id: 12, img: "/zoro.jpg" },
   ]);
 
   const [flippedCards, setFlippedCards] = useState([]);

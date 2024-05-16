@@ -8,7 +8,7 @@ const Card = ({ id, img, isFlipped, onClick }) => {
       className={`card ${isFlipped ? "flipped" : ""}`}
       onClick={() => onClick(id)}
     >
-      <img src={isFlipped ? img : "ReactJs/public/fond carte.jpg"} alt="card" />
+      <img src={isFlipped ? img : "/fond_carte.jpg"} alt="card" />
     </div>
   );
 };
