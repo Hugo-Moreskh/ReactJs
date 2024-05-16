@@ -1,6 +1,6 @@
 // components/Button.js
 import React from "react";
-import "./Button.css";
+// import "./Button.css";
 
 const Button = ({ text, onClick }) => {
   return (

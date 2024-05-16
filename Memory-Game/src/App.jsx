@@ -1,10 +1,9 @@
 /* eslint-disable no-unused-vars */
-// App.js
 import React, { useState, useEffect } from "react";
 import "./App.css";
-import Title from "./components/Title";
-import Card from "./components/Cards";
-import Button from "./components/Button";
+import Title from "./components/Title/title";
+import Card from "./components/Cards/cards"; // Importez le composant Card de manière appropriée
+import Button from "./components/Button/Button";
 
 const App = () => {
   const [cards, setCards] = useState([

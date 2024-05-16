@@ -1,6 +1,6 @@
 // components/Card.js
 import React from "react";
-import "./Card.css";
+// import "./Card.css";
 
 const Card = ({ id, img, isFlipped, onClick }) => {
   return (
@@ -8,7 +8,7 @@ const Card = ({ id, img, isFlipped, onClick }) => {
       className={`card ${isFlipped ? "flipped" : ""}`}
       onClick={() => onClick(id)}
     >
-      <img src={isFlipped ? img : "/fond_carte.jpg"} alt="card" />
+      <img src={isFlipped ? img : "/fond carte.jpg"} alt="card" />
     </div>
   );
 };
